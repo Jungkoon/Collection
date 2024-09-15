@@ -12,14 +12,14 @@ public class Task {
 	}
 	
 	public LocalDate getDate() {
-		return date;
+		return this.date;
 	}
 	
 	public String getInfo() {
-		return info;
+		return this.info;
 	}
 	
 	public String toString() {
-		return date + ":" + info;
+		return this.date + ":" + this.info;
 	}
 }
